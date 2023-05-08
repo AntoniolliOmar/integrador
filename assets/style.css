@@ -1,0 +1,87 @@
+body{
+    font-family: 'Righteous', cursive !important;
+    color: white !important;
+}
+.sec1{
+    height: 100vh;
+}
+.sec1 div div {
+    top: 35vh;
+}
+.img1{
+    padding-left: 25vw;
+}
+.img1 ::after{
+    content: "INDUMENTARIA";
+    color: white;
+    color: red;
+}
+.sec2{ display: flex; 
+    flex-wrap: wrap; 
+    justify-content: space-around; 
+    background-color: whitesmoke;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.sec2 h2{
+    color: black;
+    font-weight: bold;
+}
+
+.productos{
+    padding: 15px;
+    filter: brightness(0.7);
+    -webkit-filter: brightness(0.7);
+}
+.productos:hover{
+    filter:brightness(0.9);
+    -webkit-filter:brightness(0.9);
+}
+
+.sec3{
+    display: flex;
+    padding-left: 10px;
+}
+.sec3 div {
+    display: flex;
+}
+
+.img3{
+    width: 50vw;
+    height: 300px;
+}
+.text3{
+    font-size: 21px;
+    justify-content: center !important; 
+    align-items: center !important;
+}
+
+
+
+
+footer{
+    height: 100px;
+}
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 576px) {
+.sec2{
+    padding-top: 25px;
+    padding-bottom: 25px; 
+}
+
+.sec3{
+    flex-direction: column;
+}
+.img3{
+    width: 100vw;
+    height: 300px;
+}
+
+}
